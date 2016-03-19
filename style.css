@@ -1,0 +1,39 @@
+section {
+max-width: 800px;
+margin: 12px auto;
+padding: 8px;
+}
+section header, section footer {
+width: 100%;
+background: #eee;
+padding: 12px;
+text-align: center;
+display: inline-block;
+}
+section .image {
+width: 100%;
+text-align: center;
+}
+section img {
+padding: 5px;
+max-width: 100%;
+}
+section p {
+padding: 0 12px;
+}
+section .left {
+float: left;
+}
+section .right {
+float: right;
+}
+section .dwn a {
+  text-decoration: none;
+  font-weight: 700;
+  padding: 6px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+section .dwn a:hover {
+  background: #ccc;
+}
