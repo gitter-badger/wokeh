@@ -56,6 +56,7 @@ namespace Wokeh
         private void htmlEncode_Click(object sender, RoutedEventArgs e)
         {
             switchF = 0;
+            this.Title = "Wokeh HTML Encoder";
             TitleWindow.Content = "Wokeh HTML Encoder";
             action.Content = "Encode";
         }
@@ -63,6 +64,7 @@ namespace Wokeh
         private void htmlDecode_Click(object sender, RoutedEventArgs e)
         {
             switchF = 1;
+            this.Title = "Wokeh HTML Decoder";
             TitleWindow.Content = "Wokeh HTML Decoder";
             action.Content = "Decode";
         }
@@ -70,6 +72,7 @@ namespace Wokeh
         private void imgEncode_Click(object sender, RoutedEventArgs e)
         {
             switchF = 2;
+            this.Title = "Wokeh Image Encoder";
             TitleWindow.Content = "Wokeh Image Encoder";
             action.Content = "Open File";
         }
