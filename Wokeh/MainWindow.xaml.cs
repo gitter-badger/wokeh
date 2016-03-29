@@ -10,8 +10,8 @@ namespace Wokeh
     /// </summary>
     public partial class MainWindow : Window
     {
-        bool pinS;
-        int switchF = 0;
+        bool sP;
+        int sF = 0;
         Functions fun = new Functions();
         public MainWindow()
         {
@@ -38,16 +38,16 @@ namespace Wokeh
 
         private void btnPin_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            if (pinS == true)
+            if (sP == true)
             {
                 this.Topmost = false;
-                pinS = false;
+                sP = false;
                 btnPin.Foreground = Brushes.Black;
             }
             else
             {
                 this.Topmost = true;
-                pinS = true;
+                sP = true;
                 btnPin.Foreground = Brushes.Red;
             }
             
@@ -55,7 +55,7 @@ namespace Wokeh
 
         private void htmlEncode_Click(object sender, RoutedEventArgs e)
         {
-            switchF = 0;
+            sF = 0;
             this.Title = "Wokeh HTML Encoder";
             TitleWindow.Content = "Wokeh HTML Encoder";
             action.Content = "Encode";
@@ -63,7 +63,7 @@ namespace Wokeh
 
         private void htmlDecode_Click(object sender, RoutedEventArgs e)
         {
-            switchF = 1;
+            sF = 1;
             this.Title = "Wokeh HTML Decoder";
             TitleWindow.Content = "Wokeh HTML Decoder";
             action.Content = "Decode";
@@ -71,7 +71,7 @@ namespace Wokeh
 
         private void imgEncode_Click(object sender, RoutedEventArgs e)
         {
-            switchF = 2;
+            sF = 2;
             this.Title = "Wokeh Image Encoder";
             TitleWindow.Content = "Wokeh Image Encoder";
             action.Content = "Open File";
@@ -79,15 +79,15 @@ namespace Wokeh
         
         private void action_Click(object sender, RoutedEventArgs e)
         {
-            if (switchF == 0)
+            if (sF == 0)
             {
                 preview.Text = fun.encodeHTML();
             }
-            else if (switchF == 1)
+            else if (sF == 1)
             {
                 preview.Text = fun.decodeHTML();
             }
-            else if (switchF == 2)
+            else if (sF == 2)
             {
                 preview.Text = fun.toBase64();
             }
