@@ -33,6 +33,7 @@ float: right;
 }
 .adsense {
     width: 100%;
+    padding: 12px 0;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAMAAAC6sdbXAAAABlBMVEXm5ub6+vo6kon4AAAAFUlEQVR4AWNgBAIGBhABhBAE5oElAAFKABVay1RuAAAAAElFTkSuQmCC) repeat #e7e7e7;
     text-align: center;
     overflow: hidden;
