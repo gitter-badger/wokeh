@@ -1,4 +1,6 @@
 # Wokeh
+
+[![Join the chat at https://gitter.im/rmsubekti/wokeh](https://badges.gitter.im/rmsubekti/wokeh.svg)](https://gitter.im/rmsubekti/wokeh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Aplikasi desktop sederhana untuk memparse (encode / decode) kode markup dan mengkonversi gambar ke image base64.
 
 ![Wokeh](http://rmsubekti.github.io/wokeh/wokeh.gif)
